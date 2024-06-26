@@ -1,0 +1,138 @@
+.attribution {
+    font-size: 11px; text-align: center;
+ }
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+     }
+.back{
+top: 0;
+left: 0;
+position: absolute;
+z-index: -1;
+
+}
+.svg-container{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+.container{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
+    align-items: center;
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.order{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color:  hsl(223, 47%, 23%);
+}
+.para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}
+.plans{
+   background-color: hsl(227, 64%, 95%);
+   width: 350px;
+   height: 100px;
+   margin-left: 5%;
+   border-radius: 20px;
+   display: block;
+}
+.info{
+    align-items:center;
+    justify-content: space-between;
+    display: block;
+}
+.msc{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.annual-plan{
+display: inline-block;
+font-size: 16px;
+font-family: sans-serif;
+color: hsl(223, 47%, 23%);
+font-weight: 900;
+margin-top: 15px;
+margin-left: 13px;
+vertical-align: top;
+}
+.info{
+    margin: 5px 0;
+}
+.inf{
+    margin: -18px 0;
+    position: absolute;
+    z-index: 1;
+    color: hsl(224, 23%, 55%);
+    font-weight: 100;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.cng{
+    display:block;
+    justify-content: center;
+    align-items: end;
+    margin-left: 199px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.proceed{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    display: block;
+}
+.btn{
+   background-color: hsl(245, 75%, 52%);
+   color: white;
+   font-family: sans-serif;
+   font-weight: 700;
+   height:3rem;
+   width: 20rem;
+   border: none;
+   border-radius: 10px;
+   font-size: 18px;
+   cursor: pointer;
+   text-decoration: none;
+   box-shadow: 0 4px 10px hsl(245, 75%, 52%);
+}
+.btn:hover{
+    background-color:hsl(245, 73%, 56%);
+}
+.canc{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.canc{
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin-left: 38%;
+    padding-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: hsl(225, 28%, 52%);
+font-size: 18px;
+}
+.canc:hover{
+    color: hsl(226, 27%, 37%);
+}
